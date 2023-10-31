@@ -1,0 +1,6 @@
+.timer {
+  margin: 5vh 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

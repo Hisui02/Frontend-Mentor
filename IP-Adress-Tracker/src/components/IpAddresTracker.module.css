@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&family=Rubik:wght@400;500;700&display=swap");
+
+.main {
+  height: 100vh;
+
+  font-family: "Red Hat Text", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+}
+
+.header {
+  width: 100vw;
+  background-image: url("../../images/pattern-bg-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  color: white;
+  padding-top: 4vh;
+  margin-top: 1vh;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.input {
+  height: 4rem;
+  width: 40%;
+  display: flex;
+}
+
+.header input {
+  width: 92%;
+  background-color: white;
+  border: 0;
+  border-radius: 20px 0 0 20px;
+  padding: 0 0 0 5%;
+  font-family: "Red Hat Text", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+}
+
+.header input::placeholder {
+  color: hsl(0, 0%, 59%);
+  font-size: 1rem;
+}
+
+.header button {
+  background-color: black;
+  width: 8%;
+  border: none;
+  border-radius: 0 20px 20px 0;
+}
+
+.data {
+  background-color: white;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 24%;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  height: 20%;
+  z-index: 99999;
+}
+
+.data .separator {
+  height: 10vh;
+  border: solid 1px hsl(0, 0%, 92%);
+}
+
+.data div h4 {
+  color: hsl(0, 0%, 54%);
+}
+
+.data div h2 {
+  color: hsl(0, 0%, 17%);
+  font-weight: 700;
+}

@@ -1,0 +1,16 @@
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons svg {
+  margin: 0 1vw;
+}
+
+.icons svg:hover {
+  cursor: pointer;
+}
+
+.icons svg:hover path {
+  fill: rgb(251, 96, 135);
+}
