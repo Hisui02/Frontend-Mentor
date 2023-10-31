@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Frontend-Mentor/build/static/css/main.356f9874.css",
-    "main.js": "/Frontend-Mentor/build/static/js/main.ef1f81e8.js",
-    "static/js/787.fe2905bd.chunk.js": "/Frontend-Mentor/build/static/js/787.fe2905bd.chunk.js",
-    "index.html": "/Frontend-Mentor/build/index.html",
-    "main.356f9874.css.map": "/Frontend-Mentor/build/static/css/main.356f9874.css.map",
-    "main.ef1f81e8.js.map": "/Frontend-Mentor/build/static/js/main.ef1f81e8.js.map",
-    "787.fe2905bd.chunk.js.map": "/Frontend-Mentor/build/static/js/787.fe2905bd.chunk.js.map"
+    "main.css": "/Frontend-Mentor/Advice-Generator/build/static/css/main.b12438ab.css",
+    "main.js": "/Frontend-Mentor/Advice-Generator/build/static/js/main.a064e634.js",
+    "static/js/787.fe2905bd.chunk.js": "/Frontend-Mentor/Advice-Generator/build/static/js/787.fe2905bd.chunk.js",
+    "index.html": "/Frontend-Mentor/Advice-Generator/build/index.html",
+    "main.b12438ab.css.map": "/Frontend-Mentor/Advice-Generator/build/static/css/main.b12438ab.css.map",
+    "main.a064e634.js.map": "/Frontend-Mentor/Advice-Generator/build/static/js/main.a064e634.js.map",
+    "787.fe2905bd.chunk.js.map": "/Frontend-Mentor/Advice-Generator/build/static/js/787.fe2905bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.356f9874.css",
-    "static/js/main.ef1f81e8.js"
+    "static/css/main.b12438ab.css",
+    "static/js/main.a064e634.js"
   ]
 }
