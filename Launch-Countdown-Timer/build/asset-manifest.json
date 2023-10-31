@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Frontend-Mentor/Launch-Countdown-Timer/build/static/css/main.ca33f319.css",
+    "main.js": "/Frontend-Mentor/Launch-Countdown-Timer/build/static/js/main.60409797.js",
+    "static/js/787.aa4e740e.chunk.js": "/Frontend-Mentor/Launch-Countdown-Timer/build/static/js/787.aa4e740e.chunk.js",
+    "static/media/bg-stars.svg": "/Frontend-Mentor/Launch-Countdown-Timer/build/static/media/bg-stars.166881a1c03d6b1239f5.svg",
+    "index.html": "/Frontend-Mentor/Launch-Countdown-Timer/build/index.html",
+    "static/media/pattern-hills.svg": "/Frontend-Mentor/Launch-Countdown-Timer/build/static/media/pattern-hills.815d688fd937623063b5.svg",
+    "main.ca33f319.css.map": "/Frontend-Mentor/Launch-Countdown-Timer/build/static/css/main.ca33f319.css.map",
+    "main.60409797.js.map": "/Frontend-Mentor/Launch-Countdown-Timer/build/static/js/main.60409797.js.map",
+    "787.aa4e740e.chunk.js.map": "/Frontend-Mentor/Launch-Countdown-Timer/build/static/js/787.aa4e740e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca33f319.css",
+    "static/js/main.60409797.js"
+  ]
+}
