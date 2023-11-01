@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+}
+
+body {
+  background: rgb(30, 55, 86);
+  background: radial-gradient(
+    circle at top,
+    rgba(30, 55, 86, 1) 10%,
+    rgba(19, 22, 57, 1) 60%
+  );
+  background-position: top;
+}
