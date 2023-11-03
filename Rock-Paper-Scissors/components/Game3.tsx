@@ -13,7 +13,7 @@ export default function Game(props: Props) {
   const [randomSelection, setRandomSelecton] = useState<string>();
 
   const clickHandler = (selection: string): string => {
-    const randomInt = Math.floor(Math.random() * 5 + 1);
+    const randomInt = Math.floor(Math.random() * 3 + 1);
     let randomSelection;
     let result: "win" | "loose" | "draw" = "draw";
 
@@ -26,12 +26,6 @@ export default function Game(props: Props) {
         break;
       case 3:
         randomSelection = "scissors";
-        break;
-      case 4:
-        randomSelection = "lizard";
-        break;
-      case 5:
-        randomSelection = "spock";
         break;
     }
 
@@ -61,25 +55,7 @@ export default function Game(props: Props) {
         if (randomSelection === "spock") result = "loose";
         if (randomSelection === "scissors") result = "draw";
         break;
-      case "lizard":
-        if (randomSelection === "paper") result = "win";
-        if (randomSelection === "spock") result = "win";
-        if (randomSelection === "scissors") result = "loose";
-        if (randomSelection === "rock") result = "loose";
-        if (randomSelection === "lizard") result = "draw";
-        break;
-      case "spock":
-        if (randomSelection === "scissors") result = "win";
-        if (randomSelection === "rock") result = "win";
-        if (randomSelection === "paper") result = "loose";
-        if (randomSelection === "lizard") result = "loose";
-        if (randomSelection === "spock") result = "draw";
-        break;
     }
-
-    // console.log(selection);
-    // console.log(randomSelection);
-    // console.log(result);
 
     props.resultHandler(result);
     setResult(result);
