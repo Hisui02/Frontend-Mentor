@@ -10,18 +10,19 @@ export default function Home() {
 
   const [score, setScore] = useState(localScore);
 
-  const resultHandler = (result: "win" | "loose"): void => {
+  const resultHandler = (result: "win" | "loose" | "draw"): void => {
     if (result == "win") {
       setScore(score + 1);
       localStorage.setItem("score", String(score + 1));
-    } else {
+    }
+    if (result == "loose") {
       setScore(0);
       localStorage.removeItem("score");
     }
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center p-10 pt-16">
+    <main className="flex min-h-screen flex-col items-center justify-between p-10 pt-16">
       <Scoreboard score={score} />
       <Game resultHandler={resultHandler} />
     </main>
