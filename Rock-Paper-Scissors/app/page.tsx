@@ -4,20 +4,14 @@ import Scoreboard from "@/components/Scoreboard";
 import { useState } from "react";
 
 export default function Home() {
-  const localScore = localStorage.getItem("score")
-    ? parseInt(localStorage.getItem("score") as string)
-    : 0;
+  const [score, setScore] = useState(0);
 
-  const [score, setScore] = useState(localScore);
-
-  const resultHandler = (result: "win" | "loose" | "draw"): void => {
+  const resultHandler = (result: "win" | "loose" | "draw") => {
     if (result == "win") {
       setScore(score + 1);
-      localStorage.setItem("score", String(score + 1));
     }
     if (result == "loose") {
       setScore(0);
-      localStorage.removeItem("score");
     }
   };
 
